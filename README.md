@@ -1,6 +1,41 @@
-O projeto consistiu na criação de um banco de dados relacional para uma loja esportiva fictícia, com o objetivo de simular o funcionamento real de um sistema de gestão comercial.
-Foi utilizada a linguagem SQL em conjunto com o software MySQL, permitindo o desenvolvimento completo da estrutura do banco, incluindo tabelas, chaves primárias e estrangeiras, consultas, inserções, atualizações e exclusões de dados.
+# ⚽ Modelagem de Banco de Dados — Esporte Real
 
-A modelagem foi planejada para contemplar entidades como clientes, produtos, fornecedores, vendas e funcionários, garantindo a integridade referencial e a consistência das informações. Além disso, foram aplicados conceitos de normalização para evitar redundâncias e otimizar o desempenho das consultas.
+> Projeto de modelagem relacional de banco de dados desenvolvido e estruturado no **MySQL Workbench**[cite: 20].
 
-O projeto teve como foco o aprendizado prático de modelagem e manipulação de dados, além do uso eficiente de comandos SQL para representar operações típicas de um ambiente comercial.
+---
+
+## 📌 Sobre o Projeto
+
+Este repositório contém a modelagem conceitual e lógica do banco de dados para o sistema **Esporte Real**[cite: 20]. 
+
+O arquivo principal de modelo (`.mwb` do MySQL Workbench) reúne o Diagrama Entidade-Relacionamento (DER / EER), definição de tabelas, chaves primárias e estrangeiras, tipos de dados e regras de integridade relacional[cite: 20].
+
+---
+
+## 🗄️ Esquemas do Modelo
+
+O arquivo do modelo inclui os seguintes esquemas estruturados[cite: 20]:
+- **`esporte_real`**: Esquema principal da aplicação, estruturado com as tabelas de domínio do sistema[cite: 20].
+- **`mydb`**: Esquema padrão de modelagem inicial do MySQL Workbench[cite: 20].
+
+### Principais Características
+- **Integridade Referencial:** Definição de chaves estrangeiras com restrições e relacionamentos entre entidades.
+- **Normalização de Dados:** Estrutura organizada para evitar redundâncias e inconsistências em operações transacionais.
+- **Forward Engineering:** Compatibilidade com a exportação automática de scripts DDL (`CREATE SCHEMA`, `CREATE TABLE`) diretamente para instâncias MySQL.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- **Modelador:** [MySQL Workbench](https://www.mysql.com/products/workbench/) (Model Archive 1.0)[cite: 20]
+- **SGBD Alvo:** [MySQL](https://www.mysql.com/) / [MariaDB](https://mariadb.org/)
+- **Linguagem:** SQL (DDL / DML)
+
+---
+
+## 📁 Estrutura de Arquivos
+
+```text
+.
+├── esporte_real.mwb (ou arquivo .mwb do projeto)   # Arquivo de modelo relacional EER do MySQL Workbench[cite: 20]
+└── README.md                                       # Documentação e instruções de uso
