@@ -39,3 +39,31 @@ O arquivo do modelo inclui os seguintes esquemas estruturados[cite: 20]:
 .
 ├── esporte_real.mwb (ou arquivo .mwb do projeto)   # Arquivo de modelo relacional EER do MySQL Workbench[cite: 20]
 └── README.md                                       # Documentação e instruções de uso
+
+🚀 Como Abrir e Utilizar o Modelo
+Pré-requisitos
+MySQL Workbench instalado (versão 8.0 recomendada).
+
+Passo a Passo
+Clone o repositório:
+
+Bash
+
+
+git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+cd NOME-DO-REPOSITORIO
+Abrir o projeto no MySQL Workbench:
+
+Dê dois cliques no arquivo .mwb do projeto; ou
+
+Abra o MySQL Workbench, acesse File > Open Model... e selecione o arquivo.
+
+Visualizar o Diagrama EER:
+
+Na aba Model Overview, clique duas vezes sobre o diagrama em EER Diagrams para visualizar a modelagem gráfica completa das tabelas e seus relacionamentos.
+
+Exportar o Script SQL (Forward Engineering):
+
+No menu superior, vá em Database > Forward Engineer... (ou use o atalho Ctrl + G).
+
+Siga as instruções do assistente para gerar o script SQL completo (.sql) ou aplicá-lo diretamente a uma base de dados local/remota.
